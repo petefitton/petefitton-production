@@ -34,14 +34,14 @@
 }
 
 .album-cover-container .album-cover-image {
-    transition: opacity 0.3s;
+    transition: opacity 0.2s;
 }
 .album-cover-container {
     transition: transform 0.3s;
 }
 
 .album-cover-container-dark-blue {
-    background-color: #111e3c;
+    background-color: #122043;
 }
 
 .album-cover-info button {

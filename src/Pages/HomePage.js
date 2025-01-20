@@ -1,14 +1,14 @@
 import React from 'react';
 import './HomePage.css';
-import albumCover from './The_Starting_of_Something_New.jpg';
 
 function HomePage() {
+  let PUBLIC_URL = process.env.PUBLIC_URL;
 
   return (
     <div className="homepage-container">
       <div className="background-animation">
-        {/* Add your background animation here */}
-        <img src={albumCover} alt="Latest Album Cover" className="hero-image" />
+        {/* <video src={`${PUBLIC_URL}/videos/TSOSN-desktop.mp4`} alt="Latest Album Cover" className="hero-image" type="video/mp4" autoPlay muted loop /> */}
+        <video src={`${PUBLIC_URL}/videos/TSOSN-mobile.mp4`} alt="Latest Album Cover" className="hero-image" type="video/mp4" autoPlay muted loop />
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from 'react';
 import './MusicPage.css';
-import tSOSNAlbumCover from './The_Starting_of_Something_New.jpg';
 
 function MusicPage() {
-  let releases = [{title: "The Starting of Something New", albumCoverImg: tSOSNAlbumCover, releaseDate: "February 5, 2025"}];
+  let releases = [{title: "The Starting of Something New", albumCoverImg: "/img/The_Starting_of_Something_New.jpg", releaseDate: "February 5, 2025"}];
+  let PUBLIC_URL = process.env.PUBLIC_URL;
 
   return (
     <div className="musicpage-container pt-100">
@@ -13,7 +13,7 @@ function MusicPage() {
       {/* </div> */}
       {releases.map(release => (
         <div className="album-cover-container album-cover-container-dark-blue">
-          <img src={release.albumCoverImg} alt="Latest Album Cover" className="album-cover-image" />
+          <img src={`${PUBLIC_URL}${release.albumCoverImg}`} alt="Latest Album Cover" className="album-cover-image" />
           <div className="album-cover-info">
             <h2>{release.title}</h2>
             <p className="release-text-upper">Released on</p>
