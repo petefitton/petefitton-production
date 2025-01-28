@@ -7,12 +7,12 @@ import MusicPage from './Pages/MusicPage';
 import ContactPage from './Pages/ContactPage';
 import NoPage from './Pages/NoPage';
 import Navbar from './Pages/Navbar';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/petefitton-production">
+      <BrowserRouter basename="/petefitton-production">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="contact" element={<ContactPage />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
