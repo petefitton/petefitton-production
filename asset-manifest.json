@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/petefitton-production/static/css/main.71263484.css",
+    "main.css": "/petefitton-production/static/css/main.2e591c4f.css",
     "main.js": "/petefitton-production/static/js/main.a1fa65f8.js",
     "static/js/453.15cd579b.chunk.js": "/petefitton-production/static/js/453.15cd579b.chunk.js",
     "index.html": "/petefitton-production/index.html",
-    "main.71263484.css.map": "/petefitton-production/static/css/main.71263484.css.map",
+    "main.2e591c4f.css.map": "/petefitton-production/static/css/main.2e591c4f.css.map",
     "main.a1fa65f8.js.map": "/petefitton-production/static/js/main.a1fa65f8.js.map",
     "453.15cd579b.chunk.js.map": "/petefitton-production/static/js/453.15cd579b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71263484.css",
+    "static/css/main.2e591c4f.css",
     "static/js/main.a1fa65f8.js"
   ]
 }
