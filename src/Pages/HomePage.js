@@ -29,7 +29,7 @@ function HomePage() {
         <div className="homepage-container">
           <div className="background-animation">
               <Link to="/music">
-                <video src={videoUrls[0]} alt="Latest Album Cover" className="hero-image" type="video/mp4" autoPlay muted loop />
+                <video src={videoUrls[0]} alt="The Starting of Something New Album Cover" className="hero-image" type="video/mp4" autoPlay muted loop playsinline />
               </Link>
           </div>
         </div>
