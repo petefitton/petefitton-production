@@ -12,9 +12,9 @@ function ContactPage() {
       {imagesLoaded ?
         <div className="contactpage-container pt-100">
           <div className="content-container">
-            <img src={imageUrls[0]} alt="Pete Fitton" className="contact-page-photo" />
-            <h1>Contact</h1>
+            <h1>Contact Info</h1>
             <p>petefittonmusic@gmail.com</p>
+            <img src={imageUrls[0]} alt="Pete Fitton" className="contact-page-photo" />
           </div>
         </div>
       :

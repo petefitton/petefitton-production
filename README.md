@@ -6,3 +6,6 @@ https://search.brave.com/search?q=how+to+wait+to+load+page+until+image+is+downlo
 
 Routing for non-index pages:
 https://github.com/rafgraph/spa-github-pages
+
+Handling hover on mobile/touchscreens:
+https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-mobile-devices

@@ -24,7 +24,7 @@ function MusicPage() {
       {imagesLoaded ?
       <div className="musicpage-container pt-100">
         {releases.map((release, index) => (
-          <div className="album-cover-container black-background" key={index}>
+          <div className="album-cover-container black-background" key={index} tabIndex={index}>
             <img src={imageUrls[0]} alt="Latest Album Cover" className="album-cover-image" />
             <div className="album-cover-info">
               <div className="album-cover-no-title-container">
