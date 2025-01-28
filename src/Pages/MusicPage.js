@@ -1,28 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './MusicPage.css';
+import useWaitForAssets from '../Hooks/useWaitForAssets';
 
 function MusicPage() {
-  let releases = [{title: "The Starting of Something New", albumCoverImg: "/img/The_Starting_of_Something_New.jpg", releaseDate: "February 5, 2025"}];
-  let PUBLIC_URL = process.env.PUBLIC_URL;
+  const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
+  let releases = [
+    {
+      title: "The Starting of",
+      title2: "Something New",
+      albumCoverImg: "/img/The_Starting_of_Something_New.jpg",
+      albumCoverImgNoTitle: "/img/The_Starting_of_Something_New_No_Title.jpg",
+      releaseDate: "February 5, 2025"
+    },
+  ];
+  const [imageUrls] = useState([
+    `${PUBLIC_URL}${releases[0].albumCoverImg}`,
+    `${PUBLIC_URL}${releases[0].albumCoverImgNoTitle}`,
+  ]);
+  const imagesLoaded = useWaitForAssets(imageUrls);
 
   return (
-    <div className="musicpage-container pt-100">
-      {/* <div className="content-container"> */}
-        {/* <h1 className="band-name">Pete Fitton</h1> */}
-        {/* <p className="band-description">A playful and enigmatic indie band.</p> */}
-      {/* </div> */}
-      {releases.map(release => (
-        <div className="album-cover-container album-cover-container-dark-blue">
-          <img src={`${PUBLIC_URL}${release.albumCoverImg}`} alt="Latest Album Cover" className="album-cover-image" />
-          <div className="album-cover-info">
-            <h2>{release.title}</h2>
-            <p className="release-text-upper">Released on</p>
-            <p className="release-text-lower">{release.releaseDate}</p>
-            <button>Listen Now</button>
+    <>
+      {imagesLoaded ?
+      <div className="musicpage-container pt-100">
+        {releases.map((release, index) => (
+          <div className="album-cover-container black-background" key={index}>
+            <img src={imageUrls[0]} alt="Latest Album Cover" className="album-cover-image" />
+            <div className="album-cover-info">
+              <div className="album-cover-no-title-container">
+                <img src={imageUrls[1]} alt="Latest Album Cover Without Title" className="album-cover-image-no-title" />
+              </div>
+              <h2 className="album-title position-relative">{release.title}</h2>
+              <h2 className="album-title-two position-relative">{release.title2}</h2>
+              <p className="release-text position-relative">To be released on</p>
+              <p className="release-text position-relative">{release.releaseDate}</p>
+              {/* <button>Listen Now</button> */}
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+      :
+      <></>}
+    </>
   );
 }
 
