@@ -3,7 +3,7 @@
   max-width: 100vw;
 }
 
-.instrument-illustration {
+/* .instrument-illustration {
   position: relative;
   width: 20%;
   height: auto;
@@ -29,4 +29,4 @@
 .instrument-popup.visible {
   opacity: 1;
   visibility: visible;
-}
+} */

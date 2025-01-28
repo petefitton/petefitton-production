@@ -81,3 +81,11 @@ body {
 .pt-100 {
   padding-top: 100px;
 }
+
+.position-relative {
+  position: relative;
+}
+
+.black-background {
+  background-color: #000000;
+}

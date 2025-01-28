@@ -4,12 +4,34 @@
     width: 300px;
     height: 300px;
     border: 2px solid white;
+    transition: transform 0.5s;
+}
+.album-cover-container:hover {
+    transform: scale(1.1);
+}
+
+
+.album-cover-no-title-container {
+    position: fixed;
+    opacity: 0.7;
 }
 
 .album-cover-image {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    /* height: 100%; */
+    /* object-fit: cover; */
+    z-index: 1;
+    position: relative;
+    transition: opacity 0.3s;
+}
+.album-cover-container:hover .album-cover-image {
+    opacity: 0;
+}
+
+.album-cover-image-no-title {
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit: cover; */
 }
 
 .album-cover-info {
@@ -17,43 +39,25 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
     text-shadow: 2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black, 0px 2px black, 0px -2px black, 2px 0px black, -2px 0px black;
+    width: 100%;
+    height: 100%;
 }
 
-.album-cover-container:hover .album-cover-image {
-    opacity: 0.5;
-}
-.album-cover-container:hover {
-    transform: scale(1.1);
-}
-
-.album-cover-container:hover .album-cover-info {
-    opacity: 1;
-}
-
-.album-cover-container .album-cover-image {
-    transition: opacity 0.2s;
-}
-.album-cover-container {
-    transition: transform 0.3s;
-}
-
-.album-cover-container-dark-blue {
-    background-color: #122043;
-}
-
-.album-cover-info button {
+/* .album-cover-info button {
     background-color: white;
     border: 2px solid black;
     border-radius: 5px;
+} */
+
+.release-text {
+    margin: 0;
 }
 
-.release-text-upper {
+.album-title {
+    margin-top: 175px;
     margin-bottom: 0px;
 }
-
-.release-text-lower {
+.album-title-two {
     margin-top: 0px;
 }

@@ -16,21 +16,21 @@ function Navbar() {
             Music
           </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link to="/store" className="nav-link">
             Store
           </Link>
-        </li>
-        <li className="nav-item">
+        </li> */}
+        {/* <li className="nav-item">
           <Link to="/misc" className="nav-link">
             Misc
           </Link>
-        </li>
-        <li className="nav-item">
+        </li> */}
+        {/* <li className="nav-item">
           <Link to="/about" className="nav-link">
             About
           </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link to="/contact" className="nav-link">
             Contact
