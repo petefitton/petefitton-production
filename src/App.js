@@ -1,9 +1,9 @@
 import './App.css';
 import HomePage from './Pages/HomePage';
 import MusicPage from './Pages/MusicPage';
-import StorePage from './Pages/StorePage';
-import MiscPage from './Pages/MiscPage';
-import AboutPage from './Pages/AboutPage';
+// import StorePage from './Pages/StorePage';
+// import MiscPage from './Pages/MiscPage';
+// import AboutPage from './Pages/AboutPage';
 import ContactPage from './Pages/ContactPage';
 import NoPage from './Pages/NoPage';
 import Navbar from './Pages/Navbar';
