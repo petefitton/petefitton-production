@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/petefitton-production">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
