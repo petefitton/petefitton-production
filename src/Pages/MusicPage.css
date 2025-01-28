@@ -6,7 +6,7 @@
     border: 2px solid white;
     transition: transform 0.5s;
 }
-.album-cover-container:hover, .album-cover-container:focus {
+.album-cover-container:hover, .album-cover-container:focus, .album-cover-container:active {
     transform: scale(1.1);
 }
 
@@ -24,7 +24,7 @@
     position: relative;
     transition: opacity 0.3s;
 }
-.album-cover-container:hover .album-cover-image, .album-cover-container:focus .album-cover-image {
+.album-cover-container:hover .album-cover-image, .album-cover-container:focus .album-cover-image, .album-cover-container:active .album-cover-image {
     opacity: 0;
 }
 
