@@ -4,7 +4,7 @@ import useWaitForAssets from '../Hooks/useWaitForAssets';
 
 function ContactPage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
-  const [imageUrls] = useState([`${PUBLIC_URL}/img/contact_page_photo.jpg`]);
+  const [imageUrls] = useState([`${PUBLIC_URL}/images/contact_page_photo.jpg`]);
   const imagesLoaded = useWaitForAssets(imageUrls);
 
   return (
