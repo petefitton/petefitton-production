@@ -9,6 +9,8 @@ import NoPage from './Pages/NoPage';
 import Navbar from './Pages/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+// TODO: add sticky footer for socials
+
 function App() {
   return (
     <div className="App">
