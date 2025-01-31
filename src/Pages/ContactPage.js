@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './ContactPage.css';
 import useWaitForAssets from '../Hooks/useWaitForAssets';
 
+// TODO: Change ContactPage to AboutPage and add bio with multiple photos + contact info
+
 function ContactPage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
   const [imageUrls] = useState([`${PUBLIC_URL}/images/contact_page_photo.jpg`]);
