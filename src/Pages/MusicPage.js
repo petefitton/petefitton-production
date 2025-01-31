@@ -2,14 +2,17 @@ import React, { useState } from 'react';
 import './MusicPage.css';
 import useWaitForAssets from '../Hooks/useWaitForAssets';
 
+// TODO: change functionality for mobile to just go to music/:album page rather than having hover functionality (can also remove :active and :focus CSS [just keep :hover])
+// TODO: add music/:album page
+
 function MusicPage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
   let releases = [
     {
       title: "The Starting of",
       title2: "Something New",
-      albumCoverImg: "/img/The_Starting_of_Something_New.jpg",
-      albumCoverImgNoTitle: "/img/The_Starting_of_Something_New_No_Title.jpg",
+      albumCoverImg: "/images/The_Starting_of_Something_New.jpg",
+      albumCoverImgNoTitle: "/images/The_Starting_of_Something_New_No_Title.jpg",
       releaseDate: "February 5, 2025"
     },
   ];
