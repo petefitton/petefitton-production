@@ -9,3 +9,6 @@ https://github.com/rafgraph/spa-github-pages
 
 Handling hover on mobile/touchscreens:
 https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-mobile-devices
+
+Font Awesome for Icons:
+https://fontawesome.com/
