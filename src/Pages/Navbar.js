@@ -16,24 +16,14 @@ function Navbar() {
             Music
           </Link>
         </li>
-        {/* <li className="nav-item">
-          <Link to="/store" className="nav-link">
-            Store
-          </Link>
-        </li> */}
-        {/* <li className="nav-item">
-          <Link to="/misc" className="nav-link">
-            Misc
-          </Link>
-        </li> */}
-        {/* <li className="nav-item">
-          <Link to="/about" className="nav-link">
-            About
-          </Link>
-        </li> */}
         <li className="nav-item">
           <Link to="/about" className="nav-link">
             About
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/support" className="nav-link">
+            Support
           </Link>
         </li>
       </ul>
