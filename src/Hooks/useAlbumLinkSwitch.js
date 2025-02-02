@@ -8,7 +8,7 @@ function useAlbumLinkSwitch(albumName) {
           <>
             <h2>Album Links</h2>
             <ul className="album-link-list">
-              <a href="https://wakefieldhamilton.bandcamp.com/album/untitled-album-demos" aria-label="Bandcamp" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faBandcamp} /></a>
+              <a href="https://petefitton.bandcamp.com/album/the-starting-of-something-new" aria-label="Bandcamp" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faBandcamp} /></a>
               <a href="https://open.spotify.com/album/2ZJGSyp6c9KwZ4fR2dzxep" aria-label="Spotify" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faSpotify} /></a>
               {/* Apple Music */}
               {/* iTunes */}

@@ -23,8 +23,12 @@ function AboutPage() {
               <p>Reflective, inquisitive, and a little bit heady.  Pete Fitton is a 34 year-old multi-instrumentalist songwriter who has dived deep into meditation in recent years.  He has been involved in music from a young age in all kinds of musical contexts, such as musical theater, school band, orchestra, jazz, choir, barbershop quartet, medieval madrigals, and more.</p>
               <p>His upcoming double-EP "Sunset|Sunrise" is driven by vocals with acoustic guitar and contains other myriad key, string, synth, and percussion elements that complement that singer-songwriter core which ultimately results in a sound that is best described as indie acoustic.  In this work, his music takes one on a journey through despair and negativity towards love, optimism, and acceptance.<br></br>“The Starting of Something New” is the first single from this release.</p>
             </div>
-            <h1>Contact</h1>
+            <h1 className="mt-40">Contact</h1>
             <p>petefittonmusic@gmail.com</p>
+            <h1 className="mt-40">Support the Artist</h1>
+            <img src={`${PUBLIC_URL}/images/Pete-Fitton-Venmo-QR-Code.jpg`} alt="Pete Fitton's Venmo QR Code" className="qr-code"></img>
+            <p>You can find my music for sale on Bandcamp and can also directly tip me via my Venmo account. :) Thank you!</p>
+            <h1 className="mt-40">Photos</h1>
             <div className="aboutpage-image-container">
               <img src={imageUrls[0]} alt="Pete Fitton" className="about-page-photo" />
               <img src={imageUrls[1]} alt="Pete Fitton" className="about-page-photo" />

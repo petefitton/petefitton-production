@@ -29,6 +29,10 @@ main {
   padding-top: 60px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
 .position-relative {
   position: relative;
 }
