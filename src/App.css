@@ -8,7 +8,7 @@ body {
 }
 
 main {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .homepage-container {
@@ -35,8 +35,8 @@ main {
   color: #292929;
 }
 
-.pt-100 {
-  padding-top: 100px;
+.pt-60 {
+  padding-top: 60px;
 }
 
 .position-relative {

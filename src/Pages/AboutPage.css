@@ -1,0 +1,20 @@
+.about-page-photo {
+    max-width: min(calc(100% - 20px), 780px);
+    max-height: min(66vh, 944px);
+    margin: 30px 10px 0px 10px;
+}
+
+.bio-container {
+    max-width: min(80vw, 780px);
+    margin: 0 auto;
+}
+
+.aboutpage-image-container {
+    margin-bottom: 60px;
+}
+
+@media (max-width: 517px) {
+    .aboutpage-image-container {
+        margin-bottom: 120px;
+    }
+}

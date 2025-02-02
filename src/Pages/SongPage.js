@@ -30,7 +30,7 @@ function SongPage() {
   return (
     <>
       {imagesLoaded ?
-      <div className="songpage-container pt-100">
+      <div className="songpage-container pt-60">
         <h2 className="song-title position-relative">{song.name}</h2>
         <div className="song-image-container">
           <img src={imageUrl} alt={`${song.name} Album Cover`} className="album-cover-image" />

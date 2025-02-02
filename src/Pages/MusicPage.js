@@ -24,7 +24,7 @@ function MusicPage() {
   return (
     <>
       {imagesLoaded ?
-      <div className="musicpage-container pt-100">
+      <div className="musicpage-container pt-60">
         {releases.map((release, index) => (
           <Link key={index} to={`/music/${release.subUrl}`}>
             <div className="album-cover-container black-background" tabIndex={index}>
@@ -33,10 +33,10 @@ function MusicPage() {
                 <div className="album-cover-no-title-container">
                   <img src={imageUrls[1]} alt="Latest Album Cover Without Title" className="album-cover-image-no-title" />
                 </div>
-                <h2 className="album-title position-relative">{release.title}</h2>
-                <h2 className="album-title-two position-relative">{release.title2}</h2>
-                <p className="release-text position-relative">Release Date:</p>
-                <p className="release-text position-relative">{release.releaseDate}</p>
+                <div className="album-cover-text">
+                  <h2 className="album-title position-relative">{release.title}<br></br>{release.title2}</h2>
+                  <p className="release-text position-relative">Release Date:<br></br>{release.releaseDate}</p>
+                </div>
               </div>
             </div>
           </Link>

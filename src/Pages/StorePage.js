@@ -3,7 +3,7 @@ import React from 'react';
 
 function StorePage() {
   return (
-    <div className="storepage-container pt-100">
+    <div className="storepage-container pt-60">
       <div className="content-container">
       </div>
     </div>

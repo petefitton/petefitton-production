@@ -3,7 +3,7 @@ import HomePage from './Pages/HomePage';
 import MusicPage from './Pages/MusicPage';
 import SongPage from './Pages/SongPage';
 // import StorePage from './Pages/StorePage';
-import ContactPage from './Pages/ContactPage';
+import AboutPage from './Pages/AboutPage';
 import Footer from './Pages/Footer';
 import NoPage from './Pages/NoPage';
 import Navbar from './Pages/Navbar';
@@ -21,7 +21,7 @@ function App() {
             <Route path="music/:song" element={<SongPage />} />
             <Route path="music" element={<MusicPage />} />
             {/* <Route path="store" element={<StorePage />} /> */}
-            <Route path="contact" element={<ContactPage />} />
+            <Route path="about" element={<AboutPage />} />
             <Route path="*" element={<NoPage />} />
           </Routes>
         </main>

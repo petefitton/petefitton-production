@@ -9,7 +9,7 @@
 
 @media (max-width: 768px) {
     .footer {
-        background: linear-gradient(rgba(17, 30, 60, 0), rgba(17, 30, 60, 1) 22%);
+        background: linear-gradient(rgba(17, 30, 60, 0), rgba(17, 30, 60, 1) 14%);
     }
 }
 
@@ -34,6 +34,8 @@
     color: white;
 }
 
-.fa:hover {
-    opacity: 0.7;
+@media (hover: hover) and (pointer: fine) {
+    .fa:hover {
+        opacity: 0.7;
+    }
 }
