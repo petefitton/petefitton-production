@@ -53,3 +53,22 @@
     width: 560px;
     height: 315px;
 }
+
+.fa-large {
+    padding: 10px;
+    font-size: 50px;
+    width: 50px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    margin: 5px 2px;
+    /* color: white; */
+    color: #122043;
+    background: white;
+    border-radius: 50%;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .fa-large:hover {
+        opacity: 0.7;
+    }
+}
