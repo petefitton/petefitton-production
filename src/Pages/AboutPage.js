@@ -25,9 +25,6 @@ function AboutPage() {
             </div>
             <h1 className="mt-40">Contact</h1>
             <p>petefittonmusic@gmail.com</p>
-            <h1 className="mt-40">Support the Artist</h1>
-            <img src={`${PUBLIC_URL}/images/Pete-Fitton-Venmo-QR-Code.jpg`} alt="Pete Fitton's Venmo QR Code" className="qr-code"></img>
-            <p>You can find my music for sale on Bandcamp and can also directly tip me via my Venmo account. :) Thank you!</p>
             <h1 className="mt-40">Photos</h1>
             <div className="aboutpage-image-container">
               <img src={imageUrls[0]} alt="Pete Fitton" className="about-page-photo" />
