@@ -9,12 +9,12 @@
     margin: 0 auto;
 }
 
-.aboutpage-image-container {
-    margin-bottom: 60px;
+.email {
+    margin-bottom: 100px;
 }
 
 @media (max-width: 517px) {
-    .aboutpage-image-container {
-        margin-bottom: 120px;
+    .email {
+        margin-bottom: 160px;
     }
 }
