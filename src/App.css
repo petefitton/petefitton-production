@@ -12,18 +12,8 @@ main {
 }
 
 .homepage-container {
-  background-color: #122043;
+  /* background-color: #122043; */
   color: #fff;
-}
-
-@media (max-width: 768px) {
-  body {
-    background-color: #111e3c;
-  }
-
-  .homepage-container {
-    background-color: #111e3c;
-  }
 }
 
 .content-container {

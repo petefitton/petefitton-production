@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './AboutPage.css';
 import useWaitForAssets from '../Hooks/useWaitForAssets';
 
-// TODO: Change AboutPage to AboutPage and add bio with multiple photos + about info
-
 function AboutPage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
   const [imageUrls] = useState([
