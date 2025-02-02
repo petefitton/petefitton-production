@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBandcamp, faSpotify, faSoundcloud, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import './useAlbumLinkSwitch.css';
 
 function useAlbumLinkSwitch(albumName) {
     switch(albumName) {
