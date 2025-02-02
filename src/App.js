@@ -1,6 +1,7 @@
 import './App.css';
 import HomePage from './Pages/HomePage';
 import MusicPage from './Pages/MusicPage';
+import SongPage from './Pages/SongPage';
 // import StorePage from './Pages/StorePage';
 import ContactPage from './Pages/ContactPage';
 import Footer from './Pages/Footer';
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route index element={<HomePage />} />
+            <Route path="music/:song" element={<SongPage />} />
             <Route path="music" element={<MusicPage />} />
             {/* <Route path="store" element={<StorePage />} /> */}
             <Route path="contact" element={<ContactPage />} />

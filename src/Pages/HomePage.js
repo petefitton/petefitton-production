@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './HomePage.css';
 import useWaitForAssets from '../Hooks/useWaitForAssets';
 
+// TODO: update image and video to have transparent backgrounds
+
 function HomePage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
 
