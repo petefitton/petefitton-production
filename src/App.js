@@ -2,7 +2,6 @@ import './App.css';
 import HomePage from './Pages/HomePage';
 import MusicPage from './Pages/MusicPage';
 import AlbumPage from './Pages/AlbumPage';
-// import StorePage from './Pages/StorePage';
 import AboutPage from './Pages/AboutPage';
 import SupportPage from './Pages/SupportPage';
 import Footer from './Pages/Footer';
@@ -21,7 +20,6 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="music/:album" element={<AlbumPage />} />
             <Route path="music" element={<MusicPage />} />
-            {/* <Route path="store" element={<StorePage />} /> */}
             <Route path="about" element={<AboutPage />} />
             <Route path="support" element={<SupportPage />} />
             <Route path="*" element={<NoPage />} />
