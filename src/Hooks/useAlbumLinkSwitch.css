@@ -1,3 +1,17 @@
 .album-link-list {
     padding: 0 40px;
 }
+
+.fa-large {
+    padding: 10px;
+    font-size: 50px;
+    width: 50px;
+    margin: 5px;
+    color: white;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .fa-large:hover {
+        opacity: 0.7;
+    }
+}

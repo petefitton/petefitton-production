@@ -4,6 +4,7 @@ import MusicPage from './Pages/MusicPage';
 import AlbumPage from './Pages/AlbumPage';
 import AboutPage from './Pages/AboutPage';
 import SupportPage from './Pages/SupportPage';
+import BandcampPage from './Pages/BandcampPage';
 import Footer from './Pages/Footer';
 import NoPage from './Pages/NoPage';
 import Navbar from './Pages/Navbar';
@@ -22,6 +23,7 @@ function App() {
             <Route path="music" element={<MusicPage />} />
             <Route path="about" element={<AboutPage />} />
             <Route path="support" element={<SupportPage />} />
+            <Route path="bandcamp" element={<BandcampPage />} />
             <Route path="*" element={<NoPage />} />
           </Routes>
         </main>
