@@ -25,13 +25,17 @@
 }
 
 .fa {
-    padding: 10px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 15px 12px;
     color: white;
+}
+
+.footer-list a {
+    display: inline-block;
+    height: 0;
 }
 
 @media (hover: hover) and (pointer: fine) {

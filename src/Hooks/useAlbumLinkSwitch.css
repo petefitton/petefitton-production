@@ -2,16 +2,80 @@
     padding: 0 40px;
 }
 
+.album-link-list a {
+    display: inline-block;
+    height: 0;
+}
+
 .fa-large {
-    padding: 10px;
     font-size: 50px;
     width: 50px;
-    margin: 5px;
+    margin: 15px;
     color: white;
+}
+
+.tidal-icon {
+    margin: 10px;
+    font-size: 50px;
+    width: 50px;
+    fill: white;
+}
+
+.iHeartRadio-icon {
+    margin: 10px 15px;
+    width: 50px;
+    fill: white;
+    height: 45px;
+    padding-top: 10px;
+}
+
+.iHeartRadio-icon path {
+    transform: scale(150%);
+}
+
+.pandora-icon {
+    margin: 10px 15px;
+    width: 50px;
+    fill: white;
+    border-radius: 50%;
+}
+
+.pandora-icon path {
+    transform: scale(157%);
+}
+
+.applemusic-icon {
+    margin: 10px;
+    width: 50px;
+}
+
+.applemusic-icon rect {
+    fill: white;
+}
+
+.applemusic-icon path {
+    transform: scale(0.1);
+    fill: #122043;
 }
 
 @media (hover: hover) and (pointer: fine) {
     .fa-large:hover {
+        opacity: 0.7;
+    }
+
+    .tidal-icon:hover {
+        opacity: 0.7;
+    }
+
+    .iHeartRadio-icon:hover {
+        opacity: 0.7;
+    }
+
+    .pandora-icon:hover {
+        opacity: 0.7;
+    }
+
+    .applemusic-icon:hover {
         opacity: 0.7;
     }
 }
