@@ -39,3 +39,7 @@ main {
 .black-background {
   background-color: #000000;
 }
+
+a {
+  color: #9898ff;
+}

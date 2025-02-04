@@ -1,0 +1,150 @@
+.epkpage-links-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.epkpage-links-list li {
+    margin: 10px;
+}
+
+.epkpage-image-container {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 517px) {
+    .epkpage-image-container {
+        margin-bottom: 160px;
+    }
+}
+
+.epk-display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.epk-display-flex img, .epk-display-flex div {
+    margin: 0 10px;
+}
+
+.epk-page-photo {
+    max-width: min(calc(100% - 20px), 780px);
+    max-height: min(66vh, 944px);
+    margin: 30px 10px 0px 10px;
+}
+
+.epk-page-prime-photo {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 362px) {
+    .epk-page-prime-photo {
+        padding-left: 0px;
+    }
+}
+
+.bio-start {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 932px) {
+    .bio-start {
+        margin-top: 20px;
+    }
+}
+
+.epkpage-container iframe {
+    border: none;
+}
+
+.epkpage-container .bandcamp-container {
+    border: none;
+    margin-left: 100px;
+}
+
+.epkpage-container .epkpage-bio-container {
+    padding: 0 15px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.epkpage-contact-container {
+    position: fixed;
+    bottom: 0;
+    margin: 0px 20px;
+    background-color: #0e1738;
+    padding: 14px;
+    border-radius: 13px;
+    border: 2px solid black;
+    z-index: 3;
+    right: 0;
+}
+
+.epkpage-contact-mobile-container {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .epkpage-contact-container {
+        display: none;
+    }
+
+    .epkpage-contact-mobile-container {
+        display: block;
+    }
+}
+
+.epkpage-contact-container h2 {
+    /* color: black; */
+}
+
+.epkpage-contact-container p {
+    /* color: black; */
+    font-size: small;
+}
+
+.epkpage-contact-container a {
+    /* color: #002fff; */
+}
+
+.epkpage-contact-header {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.break-row {
+    flex-basis: 100%;
+    height: 20px;
+}
+
+.epkpage-social-h1 {
+    margin-top: 40px;
+}
+
+.mobile-break-row {
+    display: none;
+    flex-basis: 100%;
+    height: 20px;
+}
+
+@media only screen and (max-width: 781px) {
+    .epkpage-social-h1 {
+        margin-top: 0;
+    }
+
+    .epkpage-container .bandcamp-container {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .mobile-break-row {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .epkpage-social-h1 {
+        margin-top: 20px;
+    }
+}

@@ -16,3 +16,6 @@ https://fontawesome.com/
 Extra Icons from:
 https://www.svgrepo.com/
 https://www.flaticon.com/
+
+Flex code:
+https://tobiasahlin.com/blog/flexbox-break-to-new-row/
