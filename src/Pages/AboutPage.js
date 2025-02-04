@@ -30,8 +30,11 @@ function AboutPage() {
               <img src={imageUrls[3]} alt="Pete Fitton" className="about-page-photo" />
               <img src={imageUrls[4]} alt="Pete Fitton" className="about-page-photo" />
             </div>
-            <h1 className="mt-40">Contact</h1>
-            <p className="email">petefittonmusic@gmail.com</p>
+            <div className="email-container">
+              <h1 className="mt-40">Contact</h1>
+              <p>petefittonmusic@gmail.com</p>
+              <a href="mailto:petefittonmusic@gmail.com" className="email-anchor">Send Email</a>
+            </div>
           </div>
         </div>
       :

@@ -9,12 +9,16 @@
     margin: 0 auto;
 }
 
-.email {
+.email-container {
     margin-bottom: 100px;
 }
 
 @media (max-width: 517px) {
-    .email {
+    .email-container {
         margin-bottom: 160px;
     }
+}
+
+.email-anchor {
+    color: #9898ff;
 }
