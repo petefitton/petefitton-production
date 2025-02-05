@@ -73,7 +73,7 @@
     position: fixed;
     bottom: 0;
     margin: 0px 20px;
-    background-color: #0e1738;
+    background-color: #1e2f6e;
     padding: 14px;
     border-radius: 13px;
     border: 2px solid black;
@@ -95,17 +95,8 @@
     }
 }
 
-.epkpage-contact-container h2 {
-    /* color: black; */
-}
-
 .epkpage-contact-container p {
-    /* color: black; */
     font-size: small;
-}
-
-.epkpage-contact-container a {
-    /* color: #002fff; */
 }
 
 .epkpage-contact-header {

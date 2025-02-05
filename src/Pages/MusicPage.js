@@ -35,7 +35,7 @@ function MusicPage() {
                 </div>
                 <div className="album-cover-text">
                   <h2 className="album-title position-relative">{release.title}<br></br>{release.title2}</h2>
-                  <p className="release-text position-relative">Release Date:<br></br>{release.releaseDate}</p>
+                  <p className="release-text position-relative">Released<br></br>{release.releaseDate}</p>
                 </div>
               </div>
             </div>

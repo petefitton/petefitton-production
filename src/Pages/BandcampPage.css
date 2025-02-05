@@ -38,3 +38,9 @@
         margin-bottom: 100px;
     }
 }
+
+.bandcamp-text {
+    text-align: justify;
+    max-width: min(80vw, 780px);
+    margin: 0 auto;
+}
