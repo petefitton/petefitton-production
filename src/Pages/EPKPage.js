@@ -52,7 +52,7 @@ function EPKPage() {
                 </div>
                 <div className="mobile-break-row"></div>
                 <div className="bandcamp-container">
-                    <iframe title="The Starting of Something New on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=4294119648/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"><a href="https://wakefieldhamilton.bandcamp.com/album/untitled-album-demos">Untitled Album (Demos) by Wakefield Hamilton</a></iframe>
+                    <iframe title="The Starting of Something New on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3333396897/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/the-starting-of-something-new">The Starting of Something New by Pete Fitton</a></iframe>
                 </div>
                 {/* VIDEOS */}
             </section>
