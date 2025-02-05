@@ -12,3 +12,10 @@ https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-m
 
 Font Awesome for Icons:
 https://fontawesome.com/
+
+Extra Icons from:
+https://www.svgrepo.com/
+https://www.flaticon.com/
+
+Flex code:
+https://tobiasahlin.com/blog/flexbox-break-to-new-row/

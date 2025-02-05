@@ -8,22 +8,11 @@ body {
 }
 
 main {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .homepage-container {
-  background-color: #122043;
   color: #fff;
-}
-
-@media (max-width: 768px) {
-  body {
-    background-color: #111e3c;
-  }
-
-  .homepage-container {
-    background-color: #111e3c;
-  }
 }
 
 .content-container {
@@ -35,8 +24,12 @@ main {
   color: #292929;
 }
 
-.pt-100 {
-  padding-top: 100px;
+.pt-60 {
+  padding-top: 60px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .position-relative {
@@ -45,4 +38,8 @@ main {
 
 .black-background {
   background-color: #000000;
+}
+
+a {
+  color: #9898ff;
 }

@@ -9,7 +9,7 @@
 
 @media (max-width: 768px) {
     .footer {
-        background: linear-gradient(rgba(17, 30, 60, 0), rgba(17, 30, 60, 1) 22%);
+        background: linear-gradient(rgba(18, 32, 67, 0), rgba(18, 32, 67, 1) 14%);
     }
 }
 
@@ -25,15 +25,21 @@
 }
 
 .fa {
-    padding: 10px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 15px 12px;
     color: white;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.footer-list a {
+    display: inline-block;
+    height: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .fa:hover {
+        opacity: 0.7;
+    }
 }

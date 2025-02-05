@@ -5,31 +5,22 @@ function useWaitForAssets(propAssetUrls) {
   const [assetUrls] = useState(propAssetUrls);
 
   useEffect(() => {
-    // console.log(assetUrls);
     if (assetUrls != null) {
         let loadedCount = 0;
 
         function increaseCount() {
-        loadedCount++;
-        if (loadedCount === assetUrls.length) {
-            setAssetsLoaded(true);
-        }
+            loadedCount++;
+            if (loadedCount === assetUrls.length) {
+                setAssetsLoaded(true);
+            }
         }
 
         assetUrls.forEach(url => {
-        const asset = new Image();
-        asset.src = url;
-        asset.onload = () => {
-            increaseCount();
-        };
-        asset.onerror = () => {
-            // console.error(`Failed to load asset at ${url}`);
-            increaseCount();
-        };
+            const asset = new Image();
+            asset.src = url;
+            asset.onload = () => {increaseCount();};
+            asset.onerror = () => {increaseCount();};
         });
-    }
-    else {
-        // console.log("undefined asset urls")
     }
   }, [assetUrls]);
 

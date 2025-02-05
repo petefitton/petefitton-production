@@ -9,7 +9,7 @@ function HomePage() {
   const isMobileFunction = () => !window.matchMedia("(min-width: 768px)").matches;
   const [isMobile, setIsMobile] = useState(isMobileFunction());
 
-  const whichAssetSrc = useCallback(() => isMobile ? `${PUBLIC_URL}/images/The_Starting_of_Something_New.jpg` : `${PUBLIC_URL}/videos/TSOSN-desktop.mp4`, [PUBLIC_URL, isMobile]);
+  const whichAssetSrc = useCallback(() => isMobile ? `${PUBLIC_URL}/images/The_Starting_of_Something_New_transparent.png` : `${PUBLIC_URL}/videos/TSOSN-desktop.mp4`, [PUBLIC_URL, isMobile]);
   const [assetSrc, setAssetSrc] = useState(whichAssetSrc());
 
   const handleAssetUrls = useCallback(() => [assetSrc], [assetSrc]);

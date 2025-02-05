@@ -1,8 +1,11 @@
 import './App.css';
 import HomePage from './Pages/HomePage';
 import MusicPage from './Pages/MusicPage';
-// import StorePage from './Pages/StorePage';
-import ContactPage from './Pages/ContactPage';
+import AlbumPage from './Pages/AlbumPage';
+import AboutPage from './Pages/AboutPage';
+import SupportPage from './Pages/SupportPage';
+import BandcampPage from './Pages/BandcampPage';
+import EPKPage from './Pages/EPKPage';
 import Footer from './Pages/Footer';
 import NoPage from './Pages/NoPage';
 import Navbar from './Pages/Navbar';
@@ -17,9 +20,12 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route index element={<HomePage />} />
+            <Route path="music/:album" element={<AlbumPage />} />
             <Route path="music" element={<MusicPage />} />
-            {/* <Route path="store" element={<StorePage />} /> */}
-            <Route path="contact" element={<ContactPage />} />
+            <Route path="about" element={<AboutPage />} />
+            <Route path="support" element={<SupportPage />} />
+            <Route path="bandcamp" element={<BandcampPage />} />
+            <Route path="epk" element={<EPKPage />} />
             <Route path="*" element={<NoPage />} />
           </Routes>
         </main>

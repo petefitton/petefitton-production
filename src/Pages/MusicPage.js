@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './MusicPage.css';
 import useWaitForAssets from '../Hooks/useWaitForAssets';
-
-// TODO: change functionality for mobile to just go to music/:album page rather than having hover functionality (can also remove :active and :focus CSS [just keep :hover])
-// TODO: add music/:album page
 
 function MusicPage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
@@ -11,6 +9,7 @@ function MusicPage() {
     {
       title: "The Starting of",
       title2: "Something New",
+      subUrl: "the-starting-of-something-new",
       albumCoverImg: "/images/The_Starting_of_Something_New.jpg",
       albumCoverImgNoTitle: "/images/The_Starting_of_Something_New_No_Title.jpg",
       releaseDate: "February 5, 2025"
@@ -25,21 +24,22 @@ function MusicPage() {
   return (
     <>
       {imagesLoaded ?
-      <div className="musicpage-container pt-100">
+      <div className="musicpage-container pt-60">
         {releases.map((release, index) => (
-          <div className="album-cover-container black-background" key={index} tabIndex={index}>
-            <img src={imageUrls[0]} alt="Latest Album Cover" className="album-cover-image" />
-            <div className="album-cover-info">
-              <div className="album-cover-no-title-container">
-                <img src={imageUrls[1]} alt="Latest Album Cover Without Title" className="album-cover-image-no-title" />
+          <Link key={index} to={`/music/${release.subUrl}`}>
+            <div className="album-cover-container black-background" tabIndex={index}>
+              <img src={imageUrls[0]} alt="Latest Album Cover" className="album-cover-image" />
+              <div className="album-cover-info">
+                <div className="album-cover-no-title-container">
+                  <img src={imageUrls[1]} alt="Latest Album Cover Without Title" className="album-cover-image-no-title" />
+                </div>
+                <div className="album-cover-text">
+                  <h2 className="album-title position-relative">{release.title}<br></br>{release.title2}</h2>
+                  <p className="release-text position-relative">Released<br></br>{release.releaseDate}</p>
+                </div>
               </div>
-              <h2 className="album-title position-relative">{release.title}</h2>
-              <h2 className="album-title-two position-relative">{release.title2}</h2>
-              <p className="release-text position-relative">To be released on</p>
-              <p className="release-text position-relative">{release.releaseDate}</p>
-              {/* <button>Listen Now</button> */}
             </div>
-          </div>
+          </Link>
         ))}
       </div>
       :
