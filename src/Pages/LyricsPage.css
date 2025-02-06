@@ -1,0 +1,9 @@
+.lyricspage-container {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 517px) {
+    .lyricspage-container {
+        margin-bottom: 160px;
+    }
+}

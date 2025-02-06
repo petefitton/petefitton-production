@@ -1,5 +1,6 @@
 .album-link-list {
     padding: 0 40px;
+    background-color: black;
 }
 
 .album-link-list a {
@@ -21,7 +22,7 @@
     fill: white;
 }
 
-.iHeartRadio-icon {
+.iheartradio-icon {
     margin: 10px 15px;
     width: 50px;
     fill: white;
@@ -29,7 +30,7 @@
     padding-top: 10px;
 }
 
-.iHeartRadio-icon path {
+.iheartradio-icon path {
     transform: scale(150%);
 }
 
@@ -58,6 +59,16 @@
     fill: #122043;
 }
 
+.audiomack-icon {
+    width: 50px;
+    fill: white;
+    margin: 0px 15px;
+}
+
+.audiomack-icon path {
+    transform: scale(150%);
+}
+
 @media (hover: hover) and (pointer: fine) {
     .fa-large:hover {
         opacity: 0.7;
@@ -67,7 +78,7 @@
         opacity: 0.7;
     }
 
-    .iHeartRadio-icon:hover {
+    .iheartradio-icon:hover {
         opacity: 0.7;
     }
 
@@ -76,6 +87,10 @@
     }
 
     .applemusic-icon:hover {
+        opacity: 0.7;
+    }
+
+    .audiomack-icon:hover {
         opacity: 0.7;
     }
 }

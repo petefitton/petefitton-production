@@ -9,8 +9,15 @@
     max-width: calc(100% - 40px);
     max-height: calc(100vw - 40px);
 }
-.album-cover-container:hover {
-    transform: scale(1.1);
+
+@media (hover: hover) and (pointer: fine) {
+    .album-cover-container:hover {
+        transform: scale(1.1);
+    }
+
+    .album-cover-container:hover .album-cover-image {
+        opacity: 0;
+    }
 }
 
 .album-cover-no-title-container {
@@ -23,9 +30,6 @@
     z-index: 1;
     position: relative;
     transition: opacity 0.3s;
-}
-.album-cover-container:hover .album-cover-image {
-    opacity: 0;
 }
 
 .album-cover-image-no-title {

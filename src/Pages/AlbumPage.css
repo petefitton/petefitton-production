@@ -21,9 +21,8 @@
     
     .video-container iframe {
         position: absolute;
-        top: 0px;
         left: 0px;
-        width: 100%;
+        width: calc(100% - 4px);
         height: 100%;
     }
 }
