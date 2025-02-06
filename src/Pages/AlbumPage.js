@@ -1,19 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import useBandcampSwitch from '../Hooks/useBandcampSwitch';
 import useAlbumLinkSwitch from '../Hooks/useAlbumLinkSwitch';
 import useVideoSwitch from '../Hooks/useVideoSwitch';
+import useURLParamToNameSwitch from '../Hooks/useURLParamToNameSwitch';
 import './AlbumPage.css';
 
 function AlbumPage() {
-  const [albumName, setAlbumName] = useState();
   const urlParams = useParams().album;
-
-  useEffect(() => {
-    if (urlParams === "the-starting-of-something-new") {
-      setAlbumName("The Starting of Something New")
-    }
-  }, [urlParams]);
+  const [albumName] = useState(useURLParamToNameSwitch(urlParams));
 
   return (
     <div className="albumpage-container pt-60">
