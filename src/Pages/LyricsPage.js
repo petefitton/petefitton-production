@@ -9,14 +9,12 @@ function LyricsPage() {
     const [songName] = useState(useURLParamToNameSwitch(urlParams));
 
     return (
-        <>
-            <div className="lyricspage-container pt-60">
-                <div className="content-container">
-                    <h1>{songName}</h1>
-                    {useLyricsSwitch(songName)}
-                </div>
+        <div className="lyricspage-container pt-60">
+            <div className="content-container">
+                <h1>{songName}</h1>
+                {useLyricsSwitch(songName)}
             </div>
-        </>
+        </div>
     );
 }
 
