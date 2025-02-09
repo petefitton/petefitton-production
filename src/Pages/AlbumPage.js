@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import useBandcampSwitch from '../Hooks/useBandcampSwitch';
 import useAlbumLinkSwitch from '../Hooks/useAlbumLinkSwitch';
 import useVideoSwitch from '../Hooks/useVideoSwitch';
+import useTrackListSwitch from '../Hooks/useTrackListSwitch';
 import useURLParamToNameSwitch from '../Hooks/useURLParamToNameSwitch';
 import './AlbumPage.css';
 
@@ -16,10 +17,16 @@ function AlbumPage() {
       <div className="bandcamp-container">
         {useBandcampSwitch(albumName)}
       </div>
+      <div className="track-list-container">
+        <h2>Track List</h2>
+        {useTrackListSwitch(albumName)}
+      </div>
       <div className="album-link-container">
+        <h2>Album Links</h2>
         {useAlbumLinkSwitch(albumName)}
       </div>
       <div className="video-container">
+        <h2>Videos</h2>
         {useVideoSwitch(albumName)}
       </div>
     </div>
