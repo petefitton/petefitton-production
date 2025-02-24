@@ -38,7 +38,7 @@ function EPKPage() {
             <ul className="epkpage-links-list">
               <li><a href="https://petefitton.bandcamp.com/" aria-label="Bandcamp" target="_blank" rel="noreferrer">Bandcamp</a></li>
               <li><a href="https://open.spotify.com/artist/2kOaq98e4BfVwBnEp3PRbz" aria-label="Spotify" target="_blank" rel="noreferrer">Spotify</a></li>
-              <li><a href="https://soundcloud.com/Pete-Fitton" aria-label="SoundCloud" target="_blank" rel="noreferrer">SoundCloud</a></li>
+              {/* <li><a href="https://soundcloud.com/Pete-Fitton" aria-label="SoundCloud" target="_blank" rel="noreferrer">SoundCloud</a></li> */}
               <li><a href="https://instagram.com/PeteFittonMusic" aria-label="Instagram" target="_blank" rel="noreferrer">Instagram</a></li>
               <li><a href="https://tiktok.com/@PeteFittonMusic" aria-label="TikTok" target="_blank" rel="noreferrer">TikTok</a></li>
               <li><a href="https://youtube.com/@PeteFittonMusic" aria-label="YouTube" target="_blank" rel="noreferrer">YouTube</a></li>
