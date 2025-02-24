@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css';
-import useWaitForAssets from '../Hooks/useWaitForAssets';
 
 function HomePage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
@@ -14,8 +13,6 @@ function HomePage() {
 
   const handleAssetUrls = useCallback(() => [assetSrc], [assetSrc]);
   const [assetUrls, setAssetUrls] = useState(handleAssetUrls());
-
-  const assetsLoaded = useWaitForAssets(assetUrls);
 
   useEffect(() => {
     const handleResize = () => {
@@ -32,21 +29,17 @@ function HomePage() {
   }, [isMobile, assetSrc, whichAssetSrc, handleAssetUrls]);
 
   return (
-    <>
-      {assetsLoaded ?
-        <div className="homepage-container">
-          <div className="background-animation">
-              <Link to="/music">
-                {isMobile ?
-                  <img src={assetUrls[0]} alt="The Starting of Something New Album Cover" className="hero-image" />
-                :
-                  <video src={assetUrls[0]} alt="The Starting of Something New Album Cover" className="hero-video" type="video/mp4" autoPlay muted loop playsInline />
-                }
-              </Link>
-          </div>
-        </div>
-      : <></>}
-    </>
+    <div className="homepage-container">
+      <div className="background-animation">
+          <Link to="/music">
+            {isMobile ?
+              <img src={assetUrls[0]} alt="The Starting of Something New Album Cover" className="hero-image" />
+            :
+              <video src={assetUrls[0]} alt="The Starting of Something New Album Cover" className="hero-video" type="video/mp4" autoPlay muted loop playsInline />
+            }
+          </Link>
+      </div>
+    </div>
   );
 }
 
