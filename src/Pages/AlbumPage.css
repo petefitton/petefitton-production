@@ -4,7 +4,7 @@
 
 .video-container iframe {
     width: 560px;
-    height: 315px;
+    aspect-ratio: 16 / 9;
     margin-bottom: 14px;
 }
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import useLyricsSwitch from '../Hooks/useLyricsSwitch';
+import useVideoSwitch from '../Hooks/useVideoSwitch';
 import useURLParamToNameSwitch from '../Hooks/useURLParamToNameSwitch';
 import './LyricsPage.css';
 
@@ -13,6 +14,7 @@ function LyricsPage() {
             <div className="content-container">
                 <Link to={`/music/${urlParams}`}>Back</Link>
                 <h1>{songName}</h1>
+                {useVideoSwitch(songName)}
                 {useLyricsSwitch(songName)}
             </div>
         </div>
