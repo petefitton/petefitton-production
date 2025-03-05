@@ -9,7 +9,15 @@ function useAlbumLinkSwitch(albumName) {
           <ul className="album-link-list">
             <a href="https://petefitton.bandcamp.com/album/the-starting-of-something-new" aria-label="Bandcamp" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faBandcamp} /></a>
             <a href="https://open.spotify.com/album/2ZJGSyp6c9KwZ4fR2dzxep" aria-label="Spotify" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faSpotify} /></a>
-            <a href="https://music.youtube.com/playlist?list=OLAK5uy_l_1TZcntAr0yUHarkIQ51tcnmDga3Od2w&feature=shared" aria-label="YouTube Music" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faYoutube} /></a>
+            <a href="https://www.youtube.com/watch?v=yBPHxgmT0JI&list=PLTOeybonAABPE8l9Gbgf9QBSdIGjsHIRN&index=2" aria-label="YouTube" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faYoutube} /></a>
+          </ul>
+        );
+        case "Refrain":
+          return (
+            <ul className="album-link-list">
+            <a href="https://petefitton.bandcamp.com/album/refrain" aria-label="Bandcamp" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faBandcamp} /></a>
+            <a href="https://open.spotify.com/album/0rgEMVyfKX6tnam8wPnkH8" aria-label="Spotify" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faSpotify} /></a>
+            <a href="https://www.youtube.com/watch?v=_bDx7riZR2k&list=PLTOeybonAABPE8l9Gbgf9QBSdIGjsHIRN&index=1" aria-label="YouTube" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faYoutube} /></a>
           </ul>
         );
       default:

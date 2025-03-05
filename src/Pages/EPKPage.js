@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './EPKPage.css';
 import SuspendedLazyImg from '../Utilities/SuspendedLazyImage';
+import useBandcampSwitch from '../Hooks/useBandcampSwitch';
 
 function EPKPage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
@@ -45,7 +46,7 @@ function EPKPage() {
           </div>
           <div className="mobile-break-row"></div>
           <div className="bandcamp-container">
-            <iframe title="The Starting of Something New on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3333396897/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/the-starting-of-something-new">The Starting of Something New by Pete Fitton</a></iframe>
+            {useBandcampSwitch("EPK")}
           </div>
         </section>
         <div className="epkpage-image-container">
