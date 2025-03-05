@@ -5,7 +5,14 @@ function useTrackListSwitch(albumName) {
       case "The Starting of Something New":
         return (
             <>
-                <p>1. The Starting of Something New <Link to="/lyrics/the-starting-of-something-new">Lyrics</Link></p>
+                <p>1. The Starting of Something New <Link to="/lyrics/the-starting-of-something-new?album=the-starting-of-something-new">Lyrics</Link></p>
+            </>
+        )
+      case "Refrain":
+        return (
+            <>
+                <p>1. Refrain <Link to="/lyrics/refrain?album=refrain">Lyrics</Link></p>
+                <p>2. The Starting of Something New <Link to="/lyrics/the-starting-of-something-new?album=refrain">Lyrics</Link></p>
             </>
         )
       default:

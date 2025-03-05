@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './EPKPage.css';
 import SuspendedLazyImg from '../Utilities/SuspendedLazyImage';
+import useBandcampSwitch from '../Hooks/useBandcampSwitch';
 
 function EPKPage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
@@ -25,7 +26,7 @@ function EPKPage() {
           <div className="epkpage-bio-container">
             <p className="bio-start">Pete Fitton is a 34 year-old multi-instrumentalist indie singer-songwriter.  He has been involved in music from a young age in all kinds of musical contexts, such as musical theater, school band, orchestra, jazz, choir, barbershop quartet, medieval madrigals, and more.  He has also taken to meditation in recent years, which has made its way into his worldview and correspondingly into his lyrics.  His recent music takes influence from artists such as Elliott Smith, Sufjan Stevens, and Bon Iver, among others.</p>
             <p>His upcoming double-EP "Sunset|Sunrise" is driven by vocals with acoustic guitar and contains other myriad key, string, synth, and percussion elements that complement that singer-songwriter core which ultimately results in a sound that is best described as indie acoustic.  In this work, his music takes one on a journey through despair and negativity towards love, optimism, and acceptance.</p>
-            <p>“The Starting of Something New” is the first single from this release. He will be releasing one song on the first Wednesday of every month until July 2nd, 2025 when he will release the full double-EP.</p>
+            <p>“Refrain” is the second single from this release. He will be releasing one song on the first Wednesday of every month until July 2nd, 2025 when he will release the full double-EP.</p>
           </div>
           <div className="epkpage-contact-mobile-container">
             <h1>Contact</h1>
@@ -45,7 +46,7 @@ function EPKPage() {
           </div>
           <div className="mobile-break-row"></div>
           <div className="bandcamp-container">
-            <iframe title="The Starting of Something New on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3333396897/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/the-starting-of-something-new">The Starting of Something New by Pete Fitton</a></iframe>
+            {useBandcampSwitch("EPK")}
           </div>
         </section>
         <div className="epkpage-image-container">
