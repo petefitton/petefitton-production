@@ -2,7 +2,7 @@
     margin-bottom: 100px;
 }
 
-@media (max-width: 517px) {
+@media (max-width: 369px) {
     .lyricspage-container {
         margin-bottom: 160px;
     }

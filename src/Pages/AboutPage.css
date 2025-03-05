@@ -14,7 +14,7 @@
     margin-bottom: 100px;
 }
 
-@media (max-width: 517px) {
+@media (max-width: 369px) {
     .email-container {
         margin-bottom: 160px;
     }
