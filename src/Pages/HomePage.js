@@ -8,7 +8,7 @@ function HomePage() {
   const isMobileFunction = () => !window.matchMedia("(min-width: 768px)").matches;
   const [isMobile, setIsMobile] = useState(isMobileFunction());
 
-  const whichAssetSrc = useCallback(() => isMobile ? `${PUBLIC_URL}/images/Refrain_transparent.png` : `${PUBLIC_URL}/videos/Refrain-desktop.webp`, [PUBLIC_URL, isMobile]);
+  const whichAssetSrc = useCallback(() => isMobile ? `${PUBLIC_URL}/images/Oceans_transparent.png` : `${PUBLIC_URL}/videos/Oceans-desktop.webp`, [PUBLIC_URL, isMobile]);
   const [assetSrc, setAssetSrc] = useState(whichAssetSrc());
 
   const handleAssetUrls = useCallback(() => [assetSrc], [assetSrc]);
@@ -31,8 +31,8 @@ function HomePage() {
   return (
     <div className="homepage-container">
       <div className="background-animation">
-        <Link to="/music">
-          <img src={assetUrls[0]} alt="Refrain Album Cover" className="hero-image" />
+        <Link to="/music/oceans">
+          <img src={assetUrls[0]} alt="Oceans Album Cover" className="hero-image" />
         </Link>
         <div className="call-to-action-container">
           <a href="https://open.spotify.com/album/0rgEMVyfKX6tnam8wPnkH8" aria-label="Spotify" target="_blank" rel="noreferrer" className="call-to-action"><p>Listen on Spotify!</p></a>

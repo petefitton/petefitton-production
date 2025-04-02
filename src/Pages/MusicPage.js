@@ -7,6 +7,14 @@ function MusicPage() {
   const [PUBLIC_URL] = useState(process.env.PUBLIC_URL);
   let releases = [
     {
+      title: "Oceans",
+      title2: "",
+      subUrl: "oceans",
+      albumCoverImg: "/images/Oceans.jpg",
+      albumCoverImgNoTitle: "/images/Oceans_No_Title.jpg",
+      releaseDate: "April 2, 2025"
+    },
+    {
       title: "Refrain",
       title2: "",
       subUrl: "refrain",
@@ -28,6 +36,8 @@ function MusicPage() {
     `${PUBLIC_URL}${releases[0].albumCoverImgNoTitle}`,
     `${PUBLIC_URL}${releases[1].albumCoverImg}`,
     `${PUBLIC_URL}${releases[1].albumCoverImgNoTitle}`,
+    `${PUBLIC_URL}${releases[2].albumCoverImg}`,
+    `${PUBLIC_URL}${releases[2].albumCoverImgNoTitle}`,
   ]);
   const imagesLoaded = useWaitForAssets(imageUrls);
 
