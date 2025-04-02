@@ -14,7 +14,7 @@ function BandcampPage() {
         <h1>How to Make Bandcamp Work For You</h1>
         <p className="bandcamp-text">You can download your Bandcamp purchases for offline play through the app on both iOS and Android. Also, if you are connected to WiFi or if mobile data is not an issue, you can easily stream your purchases or other music from Bandcamp through either the app or from a web browser.</p>
         <div className="bandcamp-player">
-          {useBandcampSwitch("Refrain")}
+          {useBandcampSwitch("Bandcamp")}
         </div>
       </div>
     </div>
