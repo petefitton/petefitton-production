@@ -1,6 +1,6 @@
 .footer {
     position: sticky;
-    bottom: 0;
+    bottom: -1px;
     z-index: 2;
     height: inherit;
     background: linear-gradient(rgba(18, 32, 67, 0), rgba(18, 32, 67, 1) 22%);
