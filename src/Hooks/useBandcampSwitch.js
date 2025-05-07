@@ -2,11 +2,15 @@ function useBandcampSwitch(albumName) {
     switch(albumName) {
         case "EPK":
             return (
-                <iframe title="Oceans on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=3017964786/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/oceans">Oceans by Pete Fitton</a></iframe>
+                <iframe title="Atone on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=3659915435/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/atone">Atone by Pete Fitton</a></iframe>
             )
         case "Bandcamp":
             return (
-                <iframe title="Oceans on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=3017964786/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/oceans">Oceans by Pete Fitton</a></iframe>
+                <iframe title="Atone on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=3659915435/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/atone">Atone by Pete Fitton</a></iframe>
+            );
+        case "Atone":
+            return (
+                <iframe title="Atone on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=3659915435/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/atone">Atone by Pete Fitton</a></iframe>
             );
         case "Oceans":
             return (

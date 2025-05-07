@@ -1,5 +1,59 @@
 function useLyricsSwitch(songName) {
     switch(songName) {
+      case "Atone":
+        return (
+          <p>In love we'll discover
+            <br />It's true you know
+            <br />Such glue still holds through
+            <br />This world's shadows
+            <br />The fire will tell you
+            <br />It will show
+            <br />All these walls unfurl
+            <br />
+            <br />With peace
+            <br />And love
+            <br />We'll unchain the shackles
+            <br />We'll join the flow
+            <br />
+            <br />It takes more than pearls
+            <br />To be grown
+            <br />Lifetimes
+            <br />Will call us
+            <br />To atone
+            <br />Ohh-n
+            <br />
+            <br />Restraints keep us bound down
+            <br />We're in our cells
+            <br />Let's transform the moment
+            <br />Let's open our shells
+            <br />Let's throw away omens
+            <br />We can quell
+            <br />All the bad inbound
+            <br />
+            <br />With peace (with peace)
+            <br />And love (and love)
+            <br />We'll unchain the shackles
+            <br />We'll join the flow (oh, oh)
+            <br />
+            <br />It takes more than pearls
+            <br />To be grown
+            <br />Lifetimes
+            <br />Will call us
+            <br />To atone
+            <br />Ohh-n
+            <br />
+            <br />Even if we
+            <br />Can't undo
+            <br />Scrawl the words that
+            <br />Desalt the wounds
+            <br />
+            <br />Ooh (Desalt the wounds x8)
+            <br />Ooh (Desalt the wounds x5, we'll join the flow x3, we can atone)
+            <br />Ooh (We can atone x3)
+            <br />Ooh (With peace and love x4)
+            <br />Ooh
+          </p>
+        );
       case "Oceans":
         return (
           <p>Ooh
