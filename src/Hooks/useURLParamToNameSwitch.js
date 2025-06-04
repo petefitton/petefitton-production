@@ -1,5 +1,9 @@
 function useURLParamToNameSwitch(urlParam) {
     switch(urlParam) {
+      case "changing":
+        return (
+            "Changing"
+        );
       case "atone":
         return (
             "Atone"

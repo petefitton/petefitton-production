@@ -1,5 +1,45 @@
 function useLyricsSwitch(songName) {
     switch(songName) {
+      case "Changing":
+        return (
+          <p>No waiting for
+            <br />Anything this time around
+            <br />Just sudden bouts of misery
+            <br />I can give more
+            <br />I can't stay down
+            <br />The time is now
+            <br />
+            <br />Everything is changing
+            <br />What 'cha gonna', what 'cha gonna' do?
+            <br />Don't say things that you don't mean
+            <br />It is time to renew
+            <br />
+            <br />I see the door
+            <br />I could be homeward bound
+            <br />I can rebound with certainty
+            <br />I sense my core
+            <br />I'll compound
+            <br />What I've found
+            <br />
+            <br />Everything is changing (Everything's changing, everything's changing)
+            <br />What 'cha gonna', what 'cha gonna' do? (Everything is changing)
+            <br />And there seems to be a melody (Everything's changing, everything's changing)
+            <br />Let's just hope it's not a fluke (Everything's changing)
+            <br />
+            <br />Am I still waiting?
+            <br />I could be happy and free
+            <br />It's no one's place to give me peace
+            <br />I can break through these memories
+            <br />
+            <br />Everything is changing (Changing, changing) (Everything's changing, everything's changing)
+            <br />What 'cha gonna', what 'cha gonna' do? (Everything is changing) (Changing)
+            <br />Prosody brings me more empathy (Changing, changing) (Everything's changing, everything's changing)
+            <br />There is presently (Every)
+            <br />Not a single tree (Thing's changing)
+            <br />But I can conceive (Changing)
+            <br />Of such greenery (Changing)
+          </p>
+        );
       case "Atone":
         return (
           <p>In love we'll discover
