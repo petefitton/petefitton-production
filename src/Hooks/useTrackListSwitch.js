@@ -2,6 +2,16 @@ import { Link } from 'react-router-dom';
 
 function useTrackListSwitch(albumName) {
   switch(albumName) {
+    case "Changing":
+      return (
+        <>
+          <p>1. Changing <Link to="/lyrics/changing?album=changing">Lyrics</Link></p>
+          <p>2. Atone <Link to="/lyrics/atone?album=changing">Lyrics</Link></p>
+          <p>3. Oceans <Link to="/lyrics/oceans?album=changing">Lyrics</Link></p>
+          <p>4. Refrain <Link to="/lyrics/refrain?album=changing">Lyrics</Link></p>
+          <p>5. The Starting of Something New <Link to="/lyrics/the-starting-of-something-new?album=changing">Lyrics</Link></p>
+        </>
+      );
     case "Atone":
       return (
         <>
