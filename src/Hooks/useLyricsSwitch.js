@@ -1,8 +1,15 @@
 function useLyricsSwitch(songName) {
+  return <p className="lyrics">{getText(songName)}</p>
+}
+
+export default useLyricsSwitch;
+
+
+function getText(songName) {
     switch(songName) {
       case "Changing":
         return (
-          <p>No waiting for
+          <>No waiting for
             <br />Anything this time around
             <br />Just sudden bouts of misery
             <br />I can give more
@@ -38,11 +45,11 @@ function useLyricsSwitch(songName) {
             <br />Not a single tree (Thing's changing)
             <br />But I can conceive (Changing)
             <br />Of such greenery (Changing)
-          </p>
+          </>
         );
       case "Atone":
         return (
-          <p>In love we'll discover
+          <>In love we'll discover
             <br />It's true you know
             <br />Such glue still holds through
             <br />This world's shadows
@@ -92,11 +99,11 @@ function useLyricsSwitch(songName) {
             <br />Ooh (We can atone x3)
             <br />Ooh (With peace and love x4)
             <br />Ooh
-          </p>
+          </>
         );
       case "Oceans":
         return (
-          <p>Ooh
+          <>Ooh
             <br />
             <br />Three per stride
             <br />Weepingly
@@ -136,11 +143,11 @@ function useLyricsSwitch(songName) {
             <br />I can feel oceans washing over my eyes
             <br />
             <br />Ooh
-          </p>
+          </>
         );
       case "Refrain":
         return (
-          <p>It's nice to be with you
+          <>It's nice to be with you
             <br />Every day I wake up
             <br />With things to look forward to
             <br />I really feel your love
@@ -208,11 +215,11 @@ function useLyricsSwitch(songName) {
             <br />I want this time to always last
             <br />
             <br />Mmm
-          </p>
+          </>
         );
       case "The Starting of Something New":
         return (
-            <p>The starting of something new
+            <>The starting of something new
                 <br />I won't forget tending you
                 <br />Not that I can prove
                 <br />What I say is true
@@ -247,11 +254,9 @@ function useLyricsSwitch(songName) {
                 <br />Ooh
                 <br />Ooh-ooh Ooh
                 <br />Ooh-ooh Ooh
-            </p>
+            </>
         );
       default:
         return (<></>);
     }
 }
-
-export default useLyricsSwitch;
