@@ -2,11 +2,15 @@ function useBandcampSwitch(albumName) {
     switch(albumName) {
         case "EPK":
             return (
-                <iframe title="Changing on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=2790146746/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/changing">Changing by Pete Fitton</a></iframe>
+                <iframe title="Sunset|Sunrise on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=720947915/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/sunset-sunrise">Sunset|Sunrise by Pete Fitton</a></iframe>
             )
         case "Bandcamp":
             return (
-                <iframe title="Changing on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=2790146746/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/changing">Changing by Pete Fitton</a></iframe>
+                <iframe title="Sunset|Sunrise on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=720947915/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/sunset-sunrise">Sunset|Sunrise by Pete Fitton</a></iframe>
+            );
+        case "Sunset|Sunrise":
+            return (
+                <iframe title="Sunset|Sunrise on Bandcamp" className="h-207" src="https://bandcamp.com/EmbeddedPlayer/album=720947915/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"><a href="https://petefitton.bandcamp.com/album/sunset-sunrise">Sunset|Sunrise by Pete Fitton</a></iframe>
             );
         case "Changing":
             return (
