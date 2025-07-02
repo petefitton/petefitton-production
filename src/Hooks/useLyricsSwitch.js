@@ -7,6 +7,231 @@ export default useLyricsSwitch;
 
 function getText(songName) {
     switch(songName) {
+      case "Sunset":
+        return (
+          <>Gone's
+            <br />The dawn
+            <br />The plot
+            <br />Prolonged
+            <br />And it takes too long
+            <br />It may take too long
+            <br />
+            <br />Wait
+            <br />For hope
+            <br />I want it all to stop
+            <br />Be gone
+            <br />And it takes too long
+            <br />It may take too long
+            <br />
+            <br />Go on and on
+            <br />And on and on
+            <br />And on and on
+            <br />And on
+          </>
+        );
+      case "Beyond":
+        return (
+          <>Shaking like I can't explain
+            <br />I don't have much renegade blood
+            <br />I remain shut and stuffed
+            <br />I feel jerked and rocked and swayed
+            <br />My body's afraid
+            <br />And all I can do is sit here and play tough
+            <br />
+            <br />I'm appalled with what I do with my world view
+            <br />I may fall through again I guess that's nothing new
+            <br />
+            <br />I still wish that I could forget
+            <br />Every bomb ahead's unneeded death
+            <br />Let's let bygones be bygones
+            <br />We can get beyond
+            <br />
+            <br />We have not agreed upon
+            <br />Tackling arguments head on yet
+            <br />Omicron spreads instead
+            <br />Even if it's still our dawn
+            <br />This has gone too long
+            <br />I fear I do not know how to respond best
+            <br />
+            <br />I'm appalled with what I do with my world view
+            <br />I may fall through again I guess that's nothing new
+            <br />
+            <br />I still wish that I could forget
+            <br />Every bomb ahead's unneeded death
+            <br />Let's let bygones be bygones
+            <br />We can get beyond
+            <br />
+            <br />Ooh
+            <br />Ooh
+            <br />
+            <br />I still wish that I could forget (I still wish that I could forget) (I still wish that I could forget)
+            <br />Every bomb ahead's unneeded death (Every bomb ahead's unneeded death) (Every bomb ahead's unneeded death)
+            <br />Let's let bygones be bygones (Let's let bygones be bygones) (Let's let bygones be by-)
+            <br />We can get beyond
+          </>
+        );
+      case "Sown":
+        return (
+          <>I rescind my lies
+            <br />I have been unkind
+            <br />
+            <br />Why can't I just soften
+            <br />When I change quite often?
+            <br />
+            <br />After I wait some time to get old
+            <br />I'll look back on the things that I have known
+            <br />It will come fast oh I am told
+            <br />I'll reap what I've sown
+            <br />
+            <br />I could make things right
+            <br />Please before I die
+            <br />
+            <br />I will rot forgotten
+            <br />Alone in my coffin
+            <br />
+            <br />After I wait some time to get old
+            <br />I'll look back on the things that I have known
+            <br />It will come fast oh I am told
+            <br />I'll reap what I've sown
+            <br />
+            <br />Take hold and let go
+            <br />Ooh I'd like to but I just can't
+            <br />After failing one more time again
+            <br />It's over now
+            <br />It's over now
+            <br />It's over now
+            <br />It's over now
+          </>
+        );
+      case "Sunrise":
+        return (
+          <>So carefree
+            <br />I calmly
+            <br />Try to withdraw
+            <br />
+            <br />I can see
+            <br />Such beauty
+            <br />Light shines ever on
+            <br />
+            <br />Whatever I have at hand
+            <br />Even with no plan
+            <br />
+            <br />I can stand
+            <br />Light shines ever on and
+            <br />On
+            <br />On
+          </>
+        );
+      case "Eternity":
+        return (
+          <>While you walk
+            <br />To the top
+            <br />I am climbing to
+            <br />Try and catch up to you
+            <br />As I stumble
+            <br />As I fall
+            <br />You look back
+            <br />Laughing at it all
+            <br />
+            <br />I would spend
+            <br />All eternity with you
+            <br />If I could
+            <br />We both know
+            <br />That's not how it works
+            <br />Let's enjoy the good
+            <br />
+            <br />In another
+            <br />Life I'd be
+            <br />Just a stranger
+            <br />Sifting through debris
+            <br />In another
+            <br />I can see
+            <br />Myself as a baby
+            <br />With you holding me
+            <br />
+            <br />I would spend
+            <br />All eternity with you ('Ternity with you)
+            <br />If I could
+            <br />We both know
+            <br />That's not how it works (Not how it works)
+            <br />Let's enjoy the good of this stardust
+            <br />
+            <br />There's only so much we can do while we're on this Earth
+            <br />We can't do it all, but we can go until it hurts
+            <br />I'd be happy to be with you when I'm a hundred and twenty
+            <br />Maybe we'll have such great luck or at least last longer than many
+            <br />
+            <br />Last longer than many (Last longer than many)
+            <br />Last longer than many (Last longer than many)
+            <br />Last longer than many (Last longer than many)
+            <br />Last longer than many (Last longer)
+            <br />Last longer than many (Last longer)
+            <br />Last longer than many
+          </>
+        );
+      case "Respond":
+        return (
+          <>I know what I want
+            <br />That is what I thought
+            <br />Alone I confront
+            <br />My mind's sweetened song is gone is gone
+            <br />
+            <br />I will thank you tonight
+            <br />I will always know
+            <br />That you
+            <br />Fill my heart and beyond
+            <br />
+            <br />How can I respond?
+            <br />
+            <br />Not another night
+            <br />Sitting here alone
+            <br />If you saw the sight
+            <br />You'd see my worst shone till dawn till dawn
+            <br />
+            <br />I will thank you tonight
+            <br />I will always know
+            <br />That you
+            <br />Fill my heart and beyond
+            <br />
+            <br />How can I respond?
+          </>
+        );
+      case "Lava":
+        return (
+          <>I can feel my love flow
+            <br />Down rocks like lava to the shadows
+            <br />It can build or erode
+            <br />I never know when it will explode
+            <br />
+            <br />I'll try to convey
+            <br />How I feel today
+            <br />
+            <br />I would like to
+            <br />Share the love that I feel
+            <br />Deep inside me
+            <br />I may seem carefree
+            <br />But I want you to see
+            <br />I love you dearly
+            <br />
+            <br />It is not quite daybreak
+            <br />Land quickly moves my feet as it shakes
+            <br />Despite this strong earthquake
+            <br />With you I'm grounded more than afraid
+            <br />
+            <br />I'll try to convey
+            <br />How I feel today
+            <br />
+            <br />I would like to
+            <br />Share the love that I feel
+            <br />Deep inside me
+            <br />I may seem carefree
+            <br />But I want you to see
+            <br />I love you dearly
+            <br />
+            <br />I can feel my love flow
+            <br />Down rocks like lava to the shadows
+          </>
+        );
       case "Changing":
         return (
           <>No waiting for

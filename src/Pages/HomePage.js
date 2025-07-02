@@ -8,7 +8,7 @@ function HomePage() {
   const isMobileFunction = () => !window.matchMedia("(min-width: 768px)").matches;
   const [isMobile, setIsMobile] = useState(isMobileFunction());
 
-  const whichAssetSrc = useCallback(() => isMobile ? `${PUBLIC_URL}/images/Changing_transparent.png` : `${PUBLIC_URL}/videos/Changing-desktop.webp`, [PUBLIC_URL, isMobile]);
+  const whichAssetSrc = useCallback(() => isMobile ? `${PUBLIC_URL}/images/Double_EP.jpg` : `${PUBLIC_URL}/videos/Double_EP-desktop.webp`, [PUBLIC_URL, isMobile]);
   const [assetSrc, setAssetSrc] = useState(whichAssetSrc());
 
   const handleAssetUrls = useCallback(() => [assetSrc], [assetSrc]);
@@ -31,11 +31,11 @@ function HomePage() {
   return (
     <div className="homepage-container">
       <div className="background-animation">
-        <Link to="/music/changing">
-          <img src={assetUrls[0]} alt="Changing Album Cover" className="hero-image" />
+        <Link to="/music/sunset-sunrise">
+          <img src={assetUrls[0]} alt="Sunset|Sunrise Album Cover" className="hero-image" />
         </Link>
         <div className="call-to-action-container">
-          <a href="https://open.spotify.com/album/4qOKdF9cWch0lfgANINPhR" aria-label="Spotify" target="_blank" rel="noreferrer" className="call-to-action"><p>Listen on Spotify!</p></a>
+          <a href="https://open.spotify.com/album/4wK6slPFcRKn78KQgclF6H" aria-label="Spotify" target="_blank" rel="noreferrer" className="call-to-action"><p>Listen on Spotify!</p></a>
         </div>
       </div>
     </div>

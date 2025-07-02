@@ -1,5 +1,37 @@
 function useVideoSwitch(albumOrSongName) {
     switch(albumOrSongName) {
+      case "Sunset|Sunrise":
+        return (
+          <iframe title="Sunset|Sunrise on YouTube" src="https://www.youtube.com/embed/?listTypeplaylist&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        );
+      case "Sunset":
+        return (
+          <iframe title="Sunset on YouTube" src="https://www.youtube.com/embed/?listTypeplaylist&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        );
+      case "Beyond":
+        return (
+          <iframe title="Beyond on YouTube" src="https://www.youtube.com/embed/?listTypeplaylist&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo&index=4" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        );
+      case "Sown":
+        return (
+          <iframe title="Sown on YouTube" src="https://www.youtube.com/embed/?listTypeplaylist&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo&index=6" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        );
+      case "Sunrise":
+        return (
+          <iframe title="Sunrise on YouTube" src="https://www.youtube.com/embed/?listTypeplaylist&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo&index=7" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        );
+      case "Eternity":
+        return (
+          <iframe title="Eternity on YouTube" src="https://www.youtube.com/embed/?listTypeplaylist&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo&index=9" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        );
+      case "Respond":
+        return (
+          <iframe title="Respond on YouTube" src="https://www.youtube.com/embed/?listTypeplaylist&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo&index=10" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        );
+      case "Lava":
+        return (
+          <iframe title="Lava on YouTube" src="https://www.youtube.com/embed/?listTypeplaylist&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo&index=11" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        );
       case "Changing":
         return (
           <iframe title="Changing on YouTube" src="https://www.youtube.com/embed/?listType=playlist&list=PLTOeybonAABPE8l9Gbgf9QBSdIGjsHIRN" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
