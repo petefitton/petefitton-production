@@ -9,7 +9,7 @@ function useAlbumLinkSwitch(albumName) {
           <ul className="album-link-list">
             <a href="https://petefitton.bandcamp.com/album/sunset-sunrise" aria-label="Bandcamp" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faBandcamp} /></a>
             <a href="https://open.spotify.com/album/4wK6slPFcRKn78KQgclF6H" aria-label="Spotify" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faSpotify} /></a>
-            <a href="https://www.youtube.com/watch?v=kowyOxXKT_c&list=OLAK5uy_kQjaJH9zvrQ3EFktnrejTP74Tn8FJ0Ygo" aria-label="YouTube" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faYoutube} /></a>
+            <a href="https://www.youtube.com/watch?v=kowyOxXKT_c&list=PLTOeybonAABMu_pRFNIVvVIaMt93_zL-C" aria-label="YouTube" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-large" icon={faYoutube} /></a>
           </ul>
         );
       case "Changing":
