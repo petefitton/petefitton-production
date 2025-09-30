@@ -21,14 +21,14 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route index element={<HomePage />} />
-            <Route path="music/:album" element={<AlbumPage />} />
-            <Route path="music" element={<MusicPage />} />
-            <Route path="about" element={<AboutPage />} />
-            <Route path="support" element={<SupportPage />} />
-            <Route path="bandcamp" element={<BandcampPage />} />
-            <Route path="epk" element={<EPKPage />} />
-            <Route path="lyrics/:song" element={<LyricsPage />} />
-            <Route path="*" element={<NoPage />} />
+            <Route path="/music/:album" element={<AlbumPage />} />
+            <Route path="/music" element={<MusicPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/support" element={<SupportPage />} />
+            <Route path="/bandcamp" element={<BandcampPage />} />
+            <Route path="/epk" element={<EPKPage />} />
+            <Route path="/lyrics/:song" element={<LyricsPage />} />
+            <Route path="/*" element={<NoPage />} />
           </Routes>
         </main>
         <Footer />
