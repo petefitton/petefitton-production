@@ -20,7 +20,7 @@
 }
 
 .footer-list {
-    padding: 0px;
+    padding: 8px 0px 0px 0px;
     margin: 0px;
 }
 
@@ -33,7 +33,7 @@
     color: white;
 }
 
-.footer-list a {
+.footer-list li {
     display: inline-block;
     height: 0;
 }
