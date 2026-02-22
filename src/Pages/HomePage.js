@@ -35,7 +35,7 @@ function HomePage() {
           <img src={assetUrls[0]} alt="Sunset|Sunrise Album Cover" className="hero-image" />
         </Link>
         <div className="call-to-action-container">
-          <a href="https://open.spotify.com/album/4wK6slPFcRKn78KQgclF6H" aria-label="Spotify" target="_blank" rel="noreferrer" className="call-to-action"><p>Listen on Spotify!</p></a>
+          <a href="https://petefitton.bandcamp.com/" aria-label="Bandcamp" target="_blank" rel="noreferrer" className="call-to-action"><p>Listen on Bandcamp!</p></a>
         </div>
       </div>
     </div>
